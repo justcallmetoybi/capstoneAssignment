@@ -1,0 +1,14 @@
+﻿<Application x:Class="DISPLAY__ADD__EDIT_AND_DELETE_FROM_DATABASE.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:DISPLAY__ADD__EDIT_AND_DELETE_FROM_DATABASE">
+    <Application.Resources>
+    <ResourceDictionary>
+        <ResourceDictionary.MergedDictionaries>
+            <ResourceDictionary>
+                <local:Bootstrapper x:Key="Bootstrapper"/>
+            </ResourceDictionary>
+        </ResourceDictionary.MergedDictionaries>
+    </ResourceDictionary>
+    </Application.Resources>
+</Application>
